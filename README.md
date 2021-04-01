@@ -24,7 +24,7 @@ much as I need to know for this task
 so for this project Im using YOLO model for object detection and gTTS 
 for voice conversion 
 <br/>
-
+# implementation
 **1. Training Data:** The model is trained with the Common Objects In Context (COCO) dataset. You can explore the images that they labeled in the link, it’s pretty cool.
 <br/>**2. Model:** The model here is the You Only Look Once (YOLO) algorithm that runs through a variation of an extremely complex Convolutional Neural Network architecture called the Darknet. Even though we are using a more enhanced and complex YOLO v3 model, I will explain the original YOLO algorithm. Also, the python cv2 package has a method to setup Darknet from our configurations in the yolov3.cfg file.
 I am more interested in getting something to work as soon as possible this time round so I will be using a pre-trained model. This means that COCO has already been trained on YOLO v3 by others and we have already obtained the weights stored in a 200+mb file.
